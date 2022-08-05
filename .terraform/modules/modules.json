@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"build-trigger","Source":"./modules/cloudbuild_trigger","Dir":"modules/cloudbuild_trigger"},{"Key":"gcs-bucket","Source":"./modules/gcs_bucket","Dir":"modules/gcs_bucket"},{"Key":"google-cloud-build-worker-pool","Source":"./modules/worker_pool","Dir":"modules/worker_pool"}]}
