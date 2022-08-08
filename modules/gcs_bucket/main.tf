@@ -36,8 +36,8 @@ resource "google_storage_bucket" "build-logs" {
   location      = var.bucket_location
   labels        = var.labels
   force_destroy = false
-  encryption {
-    default_kms_key_name = google_kms_crypto_key.secrets.id
-  }
+  #encryption {
+  #  default_kms_key_name = google_kms_crypto_key.secrets.id
+  #}
 }
 
