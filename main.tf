@@ -19,6 +19,7 @@ module "gcs-bucket"{
     bucket_location = var.bucket_location
     key_IAM_users = var.key_IAM_users
     key_iam_role = var.key_iam_role
+    labels = var.labels
 }
 
 #cloud build trigger
