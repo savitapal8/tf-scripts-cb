@@ -23,3 +23,6 @@ variable "key_IAM_users"{
 variable "key_iam_role"{
     type = string
 }
+variable "labels"{
+    type = map
+}
