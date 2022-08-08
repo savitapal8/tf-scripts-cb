@@ -71,3 +71,6 @@ variable "file_name"{
 variable "trigger_name"{
     type = string
 }
+variable "labels"{
+    type = map
+}
