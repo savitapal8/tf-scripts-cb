@@ -9,6 +9,9 @@ key_IAM_users = [
       "serviceAccount:service-1080178441487@modular-scout-345114.iam.gserviceaccount.com",
     ]
 key_iam_role = "roles/cloudkms.cryptoKeyEncrypterDecrypter"
+skip_initial_version_creation = true
+import_only = true
+rotation_period = "7776000s"
 
 #worker pool variables
 worker_pool_name = "wf-us-prod-cb-app01-u0001"
