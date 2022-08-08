@@ -23,7 +23,7 @@ resource "google_project_iam_member" "build-roles" {
 resource "google_cloudbuild_trigger" "service-account-trigger" {
   name = var.trigger_name  
   depends_on = [google_project_iam_member.build-roles,]  
-  service_account = "1#080178441487-compute@developer.gserviceaccount.com" #google_service_account.custom-sa.id
+  service_account = null #google_service_account.custom-sa.id
   filename        = var.file_name
   github {
     owner = var.organization_owner
