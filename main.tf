@@ -20,6 +20,9 @@ module "gcs-bucket"{
     key_IAM_users = var.key_IAM_users
     key_iam_role = var.key_iam_role
     labels = var.labels
+    skip_initial_version_creation = var.skip_initial_version_creation
+    import_only = var.import_only
+    rotation_period =  var.rotation_period
 }
 
 #cloud build trigger
