@@ -34,12 +34,12 @@ branch_name = "main"
 invert_regex = false
 file_name = "cloudbuild.yaml"
 labels = { 
-      gcp_region = "US",
+      gcp_region = "us",
       owner = "hybridenv",
       application_division = "pci",
       application_name = "demo",
       application_role = "app",
       environment = "prod",
       au = "0223092",
-      created = "20220802", 
+      created = "20221018", 
 }
