@@ -14,7 +14,7 @@ module "gcs-bucket"{
     keyring_name = var.keyring_name
     project_id = var.project_id
     keyring_location = var.keyring_location
-    #key_name = var.key_name
+    key_name = var.key_name
     gcs_bucket_name = var.gcs_bucket_name
     bucket_location = var.bucket_location
     key_IAM_users = var.key_IAM_users
