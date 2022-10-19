@@ -14,14 +14,14 @@ import_only = true
 rotation_period = "7776000s"
 
 #worker pool variables
-worker_pool_name = "wf-us-prod-cb-app01-u0001"
+worker_pool_name = "wf-us-prod-cbd-app01-u0001" #"wf-us-prod-cb-app01-u0001"
 worker_pool_location = "us-central1"
 worker_disk_size = 100
 machine_type = "e2-standard-4"
 no_external_ip = true
 
 #build trigger variables
-trigger_name = "wf-us-prod-cb-app01-u0002"
+trigger_name =  "wf-us-prod-cbd-app01-u0002" #"wf-us-prod-cb-app01-u0002"
 custom-sa_name = "custom-sa-12"
 cloudbuild_sa_roles = [
     "roles/iam.serviceAccountUser",
