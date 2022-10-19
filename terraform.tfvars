@@ -1,9 +1,9 @@
 #bucket and KMS key variables
 project_id = "modular-scout-345114"
-keyring_name = "wf-us-prod-kms-app01-u0001"
+keyring_name = "wf-us-prod-kms-app02-u0002"
 keyring_location = "us-central1"
-key_name = "wf-us-prod-kms-app01-u0002"
-gcs_bucket_name = "wf-us-prod-gcs-app01-u0001"
+key_name = "wf-us-prod-kms-app02-u0003"
+gcs_bucket_name = "wf-us-prod-gcs-app02-u0001"
 bucket_location = "us-central1"
 key_IAM_users = [
       "serviceAccount:service-1080178441487@modular-scout-345114.iam.gserviceaccount.com",
@@ -18,7 +18,7 @@ worker_pool_name = "wf-us-prod-cb-app01-u0001"
 worker_pool_location = "us-central1"
 worker_disk_size = 100
 machine_type = "e2-standard-4"
-no_external_ip = false
+no_external_ip = true
 
 #build trigger variables
 trigger_name = "wf-us-prod-cb-app01-u0002"
