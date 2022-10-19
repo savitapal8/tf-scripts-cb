@@ -18,7 +18,7 @@ worker_pool_name = "wf-us-prod-cb-app01-u0001"
 worker_pool_location = "us-central1"
 worker_disk_size = 100
 machine_type = "e2-standard-4"
-no_external_ip = true
+no_external_ip = false
 
 #build trigger variables
 trigger_name = "wf-us-prod-cb-app01-u0002"
